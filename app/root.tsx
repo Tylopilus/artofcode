@@ -9,7 +9,7 @@ import {
 import type { MetaFunction } from 'remix';
 
 import styles from './tailwind.css';
-import { Nav } from './components/Nav';
+import { Nav } from './molecules/Nav';
 
 export function links() {
   return [{ rel: 'stylesheet', href: styles }];
