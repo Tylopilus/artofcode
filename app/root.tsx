@@ -9,6 +9,7 @@ import {
 import type { MetaFunction } from 'remix';
 
 import styles from './tailwind.css';
+import { Nav } from './components/Nav';
 
 export function links() {
   return [{ rel: 'stylesheet', href: styles }];
@@ -27,7 +28,8 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="container mx-auto bg-gray-800 text-white antialiased">
+        <Nav />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
