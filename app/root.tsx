@@ -28,7 +28,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="container mx-auto bg-gray-800 text-white antialiased">
+      <body className="container mx-auto bg-gray-800 text-white antialiased px-4">
         <Nav />
         <Outlet />
         <ScrollRestoration />
